@@ -1,18 +1,10 @@
-# THE ULTIMATE TO-DO LIST, COMING AT YOU LIVE
+This website is an interactive, responsive and functional to-do list.
 
-Current colour pallette:
-- #FFC15E - yellow
-- #16425B - deep blue
-- #C8C2AE - bone
-- #4D5061 - grey
-- #BB8588 - #a0203b - reds
-- #397f34 - green
+It makes use of HTML5, CSS3, JS and Bootstrap 5, in order to achieve the following features:
 
-To-Do List to-do list:
-
-- fix incrementing of local storage ID after deleting tasks
-
-- dismiss modal when submit button is pressed
-
-- add info about each group member in about us page
-
+- Username entry
+- Display of current date and time
+- Adding/removing of tasks via a modal form
+- Validated inputs within form
+- Functional done/delete buttons
+- Persistent storage of username/tasks
