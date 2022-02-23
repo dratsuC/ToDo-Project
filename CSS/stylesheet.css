@@ -3,7 +3,7 @@
 /*////////////////////////////
 
 - main selectors (*, body)
-- header styling (main heading, 
+- header styling (main heading,
 - username + date, social icons)
 - footer styling
 - modal + modal button styling
@@ -22,7 +22,7 @@
 }
 body {
 	margin: 1rem;
-	align-items: center;	
+	align-items: center;
 }
 
 
@@ -72,7 +72,7 @@ header {
 	height: 2.3rem;
 	-webkit-filter: grayscale(0%);
 	transition: -webkit-filter .4s ease-in-out;
-    
+
 }
 .socialSpan img:hover {
 	-webkit-filter: grayscale(100%);
@@ -95,7 +95,7 @@ header {
 	display: inline-flex;
 	color: black;
 	justify-content: space-around;
-	padding-left: 2rem;	
+	padding-left: 2rem;
 	padding-right: 2rem;
 }
 #userName {
@@ -140,7 +140,7 @@ h3 {
 
 
 footer {
-	background-color: rgba(1, 1, 1, 0.3);	
+	background-color: rgba(1, 1, 1, 0.3);
 	text-align: center;
 	padding: .5rem;
 	margin: 1rem;
@@ -227,7 +227,7 @@ footer p {
 /*///////////////////////////////*/
 /*SUBMIT/RESET BUTTON CLASS*/
 /*//////////////////////////////*/
-.modalButtonDiv {	
+.modalButtonDiv {
 	width: 100%;
 	height: 4rem;
 	display: flex;
@@ -238,9 +238,9 @@ footer p {
 	font-size: 1.2rem;
 
 	text-align: center;
-	width: 7.9rem;
+	width: 6rem;
 	height: 3.14127rem;
-}	
+}
 
 
 /*SUBMIT BUTTON*/
@@ -280,7 +280,7 @@ footer p {
 	border-radius: .5rem;
 	transform: rotate(0deg);
 	transition: transform .4s,
-	background-color .4s, 
+	background-color .4s,
 	color .4s;
 }
 .exit:hover {
@@ -332,21 +332,21 @@ footer p {
 
 #tasksList {
 	display: flex;
-	min-height: 50rem;
+
 	padding: 1rem;
 	flex-wrap: wrap;
 	justify-content: center;
-	background-color: rgba(1, 1, 1, 0.2);	
-	border-radius: .3rem;	
+	background-color: rgba(1, 1, 1, 0.2);
+	border-radius: .3rem;
 }
 
 /*CARD BACKGROUND*/
 .card-layout {
 	/*///////////////////////////////*/
 	/*BACKGROUND COLOUR FOR TASK CARDS*/
-	background-color: rgba(8, 72, 135, 0.6);
+	background-color: rgba(77, 80, 97, 0.65);
 	/*///////////////////////////////*/
-	border-radius: .3rem;	
+	border-radius: .3rem;
 }
 /*.card-body {
 	height: 20%;
@@ -355,10 +355,11 @@ footer p {
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
+	flex-wrap: wrap;
 }
 .card-entry {
 	font-weight: bold;
-	padding: 1rem;
+	padding: .4rem;
 	text-align: center;
 }
 .card-entry > span{
@@ -368,7 +369,7 @@ footer p {
 
 .card-header {
 	box-shadow: 3px 3px #1d1d1d;
-	background-color: rgba(158, 144, 162, .4)	
+	background-color: rgba(158, 144, 162, .4)
 }
 
 .cardButtons {
@@ -376,7 +377,7 @@ footer p {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-around;
-}	
+}
 
 .cardDone {
 	width: 7.7rem;
@@ -397,8 +398,8 @@ footer p {
 
 .cardDelete {
 	width: 7.7rem;
-	font-size: 1.3rem;	
-	margin: 2rem;	
+	font-size: 1.3rem;
+	margin: 2rem;
 	border: none;
 	color: white;
 	background-color: #BB8588;
@@ -417,7 +418,7 @@ footer p {
 /*//////////////////////////////*/
 
 .aboutUsButton {
-  border-radius: .3rem;	
+  border-radius: .3rem;
   border: none;
   background-color: rgba(158, 144, 162, 0.95);
   text-align: center;
@@ -432,7 +433,7 @@ footer p {
   cursor: pointer;
   display: inline-block;
   position: relative;
-	color: white;  
+	color: white;
   transition: 0.5s;
 }
 
@@ -475,7 +476,7 @@ footer p {
 	font-size: 1rem;
 	opacity: 0.7;
 	box-shadow: 4px 4px black;
-	background-color: #9E90A2;	
+	background-color: #9E90A2;
 	transition: box-shadow .4s ease-in-out,
 	background-color .4s ease-in-out,
 	color .4s ease-in-out,
@@ -488,9 +489,3 @@ footer p {
 	box-shadow: 7px 7px #16425B;
 	background-color: #FFC15E;
 }
-
-
-
-
-
-
