@@ -10,7 +10,7 @@
 
     <!--Stylesheet CSS-->
     <link rel="stylesheet" href="CSS/stylesheet.css"/>
-    
+
     <title>To-Do List</title>
     <style>
     body {
@@ -19,7 +19,7 @@
     </style>
   </head>
   <body>
-    
+
     <!--Dashboard-->
 
     <div class="container-fluid navContainer">
@@ -27,33 +27,33 @@
             <div class="col socialDiv">
                         <!--Instagram-->
                 <div class='socialMediaTop'>
-                <span class='socialSpan'><a href='https://www.instagram.com/'><img class='socialMedia' src='./Images/Instagram.png' alt='Instagram link'/></a></span>
+                <span class='socialSpan'><a href='https://www.instagram.com/'><img class='socialMedia' src='./Images/instagram.png' alt='Instagram link'/></a></span>
                 <!--Youtube-->
                 <span class='socialSpan'><a href='https://www.youtube.com/'><img class='socialMedia' src='./Images/youtube.png' alt='YouTube link'/></a></span>
                 <!--Twitter-->
                 <span class='socialSpan'><a href='https://twitter.com/?lang=en-au'><img class='socialMedia' src='./Images/twitter.png' alt='Twitter link'/></a></span>
                 <!--Pinterest-->
                 <span class='socialSpan'><a href='https://www.pinterest.com.au/'><img class='socialMedia' src='./Images/pinterest.png' alt='Pinterest link'/></a></span>
-                </div>                 
+                </div>
             </div>
 
             <div class="col aboutUsDiv">
                 <button type="button" class="aboutUsButton btn  btn-light" data-toggle="modal" data-target="#aboutUsModal">
                       <span>More About Us</span>
-                </button>                 
+                </button>
             </div>
 
 
-              
+
         </div>
     </div>
-    
 
-    
+
+
           <header>
-       
+
       <div class="row">
-       
+
 
         <div class="col welcomeCol">
               <span id="date" ></span>
@@ -63,7 +63,7 @@
     </header>
 
     <main>
-        
+
         <!-- Task adding button -->
         <div class="w-50 mx-auto">
                     <!-- Task adding button -->
@@ -71,9 +71,9 @@
               +
             </button>
             <br>
-            <p id='taskButtonP'>~ Press the '+' to add a task ~</p> 
+            <p id='taskButtonP'>~ Press the '+' to add a task ~</p>
         </div>
-        
+
 
         <!-- -----------------------------
         //      NEW TASK FORM MODAL    //
@@ -105,7 +105,7 @@
                                 <div class="valid-feedback">Looks good!</div>
                                 <div class="invalid-feedback">Please describe your task (in more than 5 characters)</div>
 
-                            </div>  
+                            </div>
                             <div class="form-group p-2">
                                 <label class="modal-label" for="assignedTo">Assigned To: </label><br>
                                 <input  type="textbox" id="addAssignedTo" class="form-control" placeholder="Enter your name"/>
@@ -113,7 +113,7 @@
                                 <div class="valid-feedback">What a lovely name!</div>
                                 <div class="invalid-feedback">Please enter the task asignee's name.</div>
 
-                            </div>    
+                            </div>
                             <div class="form-group p-2">
                                 <label class="modal-label" for="Status">Status: </label><br>
                                 <select  placeholder="TEST" id="addStatus" class="form-control" name="Status">
@@ -125,7 +125,7 @@
                                 <br>
                                 <!-- status validation feedback -->
                                 <div class="valid-feedback">Good choice!</div>
-                                <div class="invalid-feedback">Please pick a task status.</div>                                
+                                <div class="invalid-feedback">Please pick a task status.</div>
                             </div>
 
                             <div class="form-group p-2">
@@ -133,15 +133,15 @@
                                 <input  type="date" id="addDate" class="form-control" name="date">
                                 <!-- date validation feedback -->
                                 <div class="valid-feedback">Nice date!</div>
-                                <div class="invalid-feedback">Please enter a valid date.</div>                                  
-                            </div>  
+                                <div class="invalid-feedback">Please enter a valid date.</div>
+                            </div>
                             <div class='modalButtonDiv'>
                                 <button id="addReset" type="button" class="btn btn-light modalButtons">Reset</button>
-                                <button id="addSubmit" type="submit" class="btn btn-light modalButtons" >Submit</button>                                 
+                                <button id="addSubmit" type="submit" class="btn btn-light modalButtons" >Submit</button>
                             </div>
-                           
+
                           </div>
-                        
+
                         </form>
                 </div>
               </div>
@@ -152,7 +152,7 @@
 
          <!-- -----------------------------
         //      About us MODAL   //
-        -----------------------------  -->         
+        -----------------------------  -->
        <div class="modal fade" id="aboutUsModal" tabindex="-1" role="dialog" aria-labelledby="Task Adding Modal" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content taskModal mx-auto">
@@ -165,11 +165,11 @@
                 <div class="modal-body">
                     <div class="card-body">
                     <p class="card-text">
-                       This website was designed, programmed and tested as part of our final project, under instruction from Generation Australia.             
+                       This website was designed, programmed and tested as part of our final project, under instruction from Generation Australia.
                     </p>
                     <p class="card-text">
-                       In order to create this website, work was undergone remotely from all different parts of Australia.          
-                    </p>  
+                       In order to create this website, work was undergone remotely from all different parts of Australia.
+                    </p>
                     <p>Team Members:</p>
                     <ol>
                         <li class="text-light"><a class="text-light" href="https://www.linkedin.com/in/tasha-bailey-3a3218228/
@@ -177,48 +177,48 @@
                         <li class="text-light"><a class="text-light" href="https://www.linkedin.com/in/le-luu-1b51a4227/
 ">Le Luu 🔗</a></li>
                         <li class="text-light"><a class="text-light" href="www.linkedin.com/in/kaiden-haysom-webdev">Kaiden Haysom 🔗</a></li>
-                    </ol>                  
+                    </ol>
                     <!-- IFRAME FOR GOOGLE MAPS EMBED -->
 
 <!--                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d402586.85591509996!2d144.77227675530443!3d-37.972232617251784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC!5e0!3m2!1sen!2sau!4v1643605439296!5m2!1sen!2sau" width="600" height="450" style="border:0;"  style="height:200px;width:300px;" title="Iframe Example"></iframe> -->
-                    </div> 
+                    </div>
                 </div>
               </div>
             </div>
         </div>
 
- 
+
          <!-- -----------------------------
         //      TASK CARD LAYOUT   //
-        -----------------------------  -->            
+        -----------------------------  -->
 
     <div class="card-div">
         <h2 id='tasksHeading'>Tasks</h2>
         <ul id='tasksList'>
-            <li class="card card-layout" 
+            <li class="card card-layout"
             data-task-id="${id}">
                 <div class="card-header rounded">
 
-                <h5>Task Name: <small>${name}</small></h5> 
+                <h5>Task Name: <small>${name}</small></h5>
                 </div>
                 <div class="card-body">
                 <div class="card-text">
                     <div class="card-entry">Assigned to: <span></span></div>
                     <div class="card-entry">Due Date: <span></span></div>
-                    <div class="card-entry">Status: <span></span></div>               
+                    <div class="card-entry">Status: <span></span></div>
                 </div>
                 <h5 class="card-title">
                     <strong>Description: </strong> <small></small>
-                </h5>    
+                </h5>
                 <div class='cardButtons'>
                     <button class=" cardDone btn btn-light taskComplete ">
                     Done
-                    </button>     
+                    </button>
                     <button class="cardDelete btn btn-light taskDelete">
                     Delete
                     </button>
                 </div>
-            </li>            
+            </li>
 
         </ul>
     </div>
